@@ -81,7 +81,8 @@ function setupRooms()
     addRoom(7,6, "Pool Room", "You enter a dark, damp room with an old indoor pool in the middle. The room reeks of moldy water and more drips from the ceiling. Grab the life jack and run!", null, "Life Jacket");
   addRoom(8,1, "Pharaoh's Tomb", "You entered a room where the walls and the floor and the ceiling are covered in gold. In the middle of the room, Pharaoh's tomb is majestically placed, on it lays his Golden Staff", "Golden Glove", "Golden Staff");
   	addRoom(8,2, "Leprechaun Portal", "You enter a room with the portal in the middle of the room. You can see leprechauns guarding the portal. As you get close to the portal the leprechauns block your path.");
-	addRoom(8,3, "The Rug Room", "You step into a dingy, dimly lit room with a large purple shag rug on the dirt floor. The rug shifts and rises up, getting on all four corners. The rug shuffles up and seems to sniff you. It seems friendly. You give the rug a pat as you head for the door.");
+	addRoom(8,3, "The Rug Room", "You step into a dingy, dimly lit room with a large purple shag rug on the dirt floor. The rug shifts and rises up, getting on all four corners. The rug shuffles up and seems to sniff you. It seems friendly. You give the rug a pat as you head for the door.", null, "Red key");
+	addRoom(8,4, "The Red Room", "For sure this room is not GREY! It is red... and filled with strange furniture. There are many leather items and cylindrical shapes... Just try to don't touch anything...", "Red key", "Ray of Hope");
 }
 //
 function enterRoomAt(x_, y_)
